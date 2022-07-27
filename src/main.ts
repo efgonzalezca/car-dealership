@@ -9,7 +9,7 @@ async function main() {
     new ValidationPipe({
       whitelist: true,
       forbidNonWhitelisted: true,
-      })
+    })
   );
 
   await app.listen(4000);
